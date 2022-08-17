@@ -1,37 +1,85 @@
 /* Define the stones */
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('white_stone.png');
+  background-image: url("white_stone.png");
 }
 
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('black_stone.png');
+  background-image: url("black_stone.png");
 }
 
 /* Define the subdued board -- d2ac76 is used as an approximately equal colour */
 
 .shudan-goban {
-    --shudan-board-background-color: #d2ac76;
+  --shudan-board-background-color: #d2ac76;
 }
 
 .shudan-goban-image {
-    background-image: url('subdued_board.png');
+  background-image: url("subdued_board.png");
 }
 
 /* Black border */
 
 .shudan-goban {
-    --shudan-board-border-color: #000000;
+  --shudan-board-border-color: #000000;
 }
 
 /* Black player bar */
 
 #bar {
-    background: #000000;
+  background: #000000;
 }
 
 /* Suppress the "tatami mat" that exists as of 0.15 */
 
 main {
-    background: #000000;
+  background: #000000;
+}
+
+/* Turn down the temperature on the heatmap */
+
+.shudan-vertex.shudan-heat_9 .shudan-heat {
+  background: #bcf4f5;
+  box-shadow: 0 0 1em 0.7em #bcf4f5;
+  opacity: 0.8;
+}
+.shudan-vertex.shudan-heat_8 .shudan-heat {
+  background: #bcf4f5;
+  box-shadow: 0 0 1em 0.75em #bcf4f5;
+  opacity: 0.7;
+}
+.shudan-vertex.shudan-heat_7 .shudan-heat {
+  background: #94d1dc;
+  box-shadow: 0 0 1em 0.6em #94d1dc;
+  opacity: 0.8;
+}
+.shudan-vertex.shudan-heat_6 .shudan-heat {
+  background: #94d1dc;
+  box-shadow: 0 0 1em 0.65em #94d1dc;
+  opacity: 0.8;
+}
+.shudan-vertex.shudan-heat_5 .shudan-heat {
+  background: #71aec4;
+  box-shadow: 0 0 0.9em 0.5em #71aec4;
+  opacity: 0.7;
+}
+.shudan-vertex.shudan-heat_4 .shudan-heat {
+  background: #548bab;
+  box-shadow: 0 0 0.85em 0.45em #548bab;
+  opacity: 0.8;
+}
+.shudan-vertex.shudan-heat_3 .shudan-heat {
+  background: #548bab;
+  box-shadow: 0 0 0.8em 0.4em #548bab;
+  opacity: 0.7;
+}
+.shudan-vertex.shudan-heat_2 .shudan-heat {
+  background: #3e6990;
+  box-shadow: 0 0 0.75em 0.35em #3e6990;
+  opacity: 0.8;
+}
+.shudan-vertex.shudan-heat_1 .shudan-heat {
+  background: #3e6990;
+  box-shadow: 0 0 0.7em 0.3em #3e6990;
+  opacity: 0.7;
 }
