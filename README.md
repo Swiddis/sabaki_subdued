@@ -41,5 +41,6 @@ Current ideas:
 
 ## License
 
-This project is licensed under the [MIT license](https://opensource.org/licenses/MIT). See `LICENSE` for details.
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+See `LICENSE.md` for details.
 
