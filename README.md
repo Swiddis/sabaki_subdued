@@ -24,3 +24,15 @@ npx asar pack ./subdued subdued.asar
 ```
 
 To reload the theme in Sabaki, reinstall the new `.asar` using Usage the steps above.
+
+## Contributing
+
+I'm open to feedback.
+Feel free to submit contributions as you please.
+For the most part, I'll test the changes locally and merge them if I like them.
+
+Current ideas:
+
+- Experiment more with colors to find a better scheme.
+- Experiment with drop shadow parameters to make the blurring look better.
+- Make colors higher contrast.
