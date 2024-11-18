@@ -39,38 +39,38 @@ main {
 /* Turn down the temperature on the heatmap */
 
 .shudan-vertex.shudan-heat_9 .shudan-heat {
-  box-shadow: 0 0 0 .45em #9dd4d5;
+  box-shadow: 0 0 0 .45em #1e4970;
   opacity: 0.65;
 }
 .shudan-vertex.shudan-heat_8 .shudan-heat {
-  box-shadow: 0 0 0 .45em #88c2c9;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #275a7e;
+  opacity: 0.6;
 }
 .shudan-vertex.shudan-heat_7 .shudan-heat {
-  box-shadow: 0 0 0 .45em #74b1bd;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #336b8b;
+  opacity: 0.6;
 }
 .shudan-vertex.shudan-heat_6 .shudan-heat {
-  box-shadow: 0 0 0 .45em #619fb1;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #407c98;
+  opacity: 0.6;
 }
 .shudan-vertex.shudan-heat_5 .shudan-heat {
   box-shadow: 0 0 0 .45em #508da4;
-  opacity: 0.65;
+  opacity: 0.6;
 }
 .shudan-vertex.shudan-heat_4 .shudan-heat {
-  box-shadow: 0 0 0 .45em #407c98;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #619fb1;
+  opacity: 0.55;
 }
 .shudan-vertex.shudan-heat_3 .shudan-heat {
-  box-shadow: 0 0 0 .45em #336b8b;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #74b1bd;
+  opacity: 0.55;
 }
 .shudan-vertex.shudan-heat_2 .shudan-heat {
-  box-shadow: 0 0 0 .45em #275a7e;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #88c2c9;
+  opacity: 0.55;
 }
 .shudan-vertex.shudan-heat_1 .shudan-heat {
-  box-shadow: 0 0 0 .45em #1e4970;
-  opacity: 0.65;
+  box-shadow: 0 0 0 .45em #9dd4d5;
+  opacity: 0.0;
 }
